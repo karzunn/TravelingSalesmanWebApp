@@ -1,0 +1,44 @@
+canvas {
+    position: absolute;
+    overflow: hidden;
+    background-color: black;
+   }
+ 
+body {
+    overflow: hidden;
+    background-color: white;
+   }
+
+#beginning {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 194, 113);
+    border: 2px solid rgba(136, 136, 136, .5);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#ending {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(245, 230, 99);
+    border: 2px solid rgba(136, 136, 136, .5);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+#iterations {
+    position: absolute;
+    top: 510px;
+    left: 10px;
+    font-size: 20px;
+}
+
+#iterationstext {
+    position: absolute;
+    top: 512px;
+    left: 130px;
+    font-size: 20px;
+}
